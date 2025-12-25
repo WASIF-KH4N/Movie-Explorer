@@ -1,18 +1,36 @@
-# React + Vite
+# 🎬 Movie Explorer – Movie Discovery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Discover movies like never before! Movie Explorer is a modern **React.js web app** with **Tailwind CSS** and the **TMDB API**.  
+Search movies, view details, watch trailers, and enjoy a **responsive dark-themed UI**. Perfect for movie buffs 🎥🍿
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Search movies by name  
+- Detailed movie info: title, overview, release date, rating ⭐, genres  
+- Embedded YouTube trailers for supported movies 🎬  
+- Responsive **dark-themed UI**  
+- React Hooks (`useState`, `useEffect`) for state management  
+- Smooth routing with React Router  
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 💻 Tech Stack
+- **React.js**  
+- **Tailwind CSS**  
+- **TMDB API**  
+- **React Router**  
+- **JavaScript ES6+**
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## Create .env in root:
+VITE_TMDB_API_KEY=YOUR_API_KEY_HERE
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Setup commands
+git clone https://github.com/WASIF-KH4N/movie-explorer.git
+cd movie-explorer
+npm install
+npm run dev
