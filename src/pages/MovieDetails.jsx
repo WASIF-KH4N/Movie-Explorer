@@ -91,22 +91,7 @@ const MovieDetails = () => {
         </div>
       </div>
 
-      {/* Trailer */}
-     {/* {trailer && (
-        <div className="mt-6 max-w-5xl mx-auto rounded-5xl ">
-          <h1 className="text-white font-bold text-xl mb-2">Trailer</h1>
-          <iframe
-            width="100%"
-            height="400"
-            src={`https://www.youtube.com/embed/${trailer.key}?autoplay=1&mute=1`}
-            title="YouTube trailer"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="rounded-3xl shadow-lg"
-          ></iframe>
-        </div>
-      )}*/}
+      
       <div className="mt-6 max-w-5xl mx-auto rounded-5xl">
   <h1 className="text-white font-bold text-xl mb-2">Trailer</h1>
 
